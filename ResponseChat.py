@@ -121,7 +121,7 @@ class ButtonObject:
     def build_object(self):
         payload = {
             "type": "button",
-            "body": self.body,
+            "title": self.body,
             "choices": self.buttons
         }
         return payload
