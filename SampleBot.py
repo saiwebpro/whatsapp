@@ -31,14 +31,6 @@ def handle_menu_choice(choice):
         section.add_choice("buttons", "Interactive Buttons", description="Get a JSON interactive buttons object")
         section.add_choice("list", "List Example", description="Interactive List")
         response.add_interactive_object(list_obj)
-    elif resp_id == "contact":
-        contact = response.init_contact()
-        contact.add_text("Please share the following details")
-        contact.add_name("John Doe")
-        contact.add_phone("1234567890")
-        contact.add_email("johndoe@example.com")
-        contact.add_address("123 Main Street")
-        response.add_contact(contact)
 
 response = ResponseChat()
 

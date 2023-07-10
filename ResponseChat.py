@@ -68,38 +68,6 @@ class ResponseChat:
         print(self.get_data())
 
 
-class Contact:
-    def __init__(self, link=''):
-        self.text = "Please share the following details"
-        self.link = link
-        self.contact = []
-
-    def add_text(self, key):
-        self.text = key
-
-    def add_name(self, name):
-        self.contact.append({"key": "name", "value": name})
-
-    def add_phone(self, phone):
-        self.contact.append({"key": "phone", "value": phone})
-
-    def add_email(self, email):
-        self.contact.append({"key": "email", "value": email})
-
-    def add_address(self, address):
-        self.contact.append({"key": "address", "value": address})
-
-    def add_custom_field(self, key, value):
-        self.contact.append({"key": key, "value": value})
-
-    def return_contact(self):
-        payload = {
-            "text": self.text,
-            "fields": self.contact
-        }
-        return payload
-
-
 class Menu:
     def __init__(self, type, title, link):
         self.type = type
