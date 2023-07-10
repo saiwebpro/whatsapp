@@ -41,8 +41,7 @@ menu_choices = [
     {"id": "document", "title": "Sending Document"},
     {"id": "location", "title": "Sending Location"},
     {"id": "buttons", "title": "Interactive Buttons"},
-    {"id": "list", "title": "List Example"},
-    {"id": "contact", "title": "Contact Example"}
+    {"id": "list", "title": "List Example"}
 ]
 
 list_obj = response.init_interactive("Welcome to the Ozonetel Cloud Communication API")
