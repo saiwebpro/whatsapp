@@ -11,4 +11,4 @@ To use the code samples, you will need to have an account on the Ozonetel WhatsA
 
 Getting Help
 
-If you need help with using the Ozonetel WhatsApp platform or have questions about the code samples in this repository, you can reach out to the Ozonetel support team or consult the documentation on the Ozonetel website. You can also create an issue on this repository if you encounter any bugs or have suggestions for improvements to the code samples.
+If you need help with using the Ozonetel WhatsApp platform or have questions about the code samples in this repository, you can mail us at support@kookoo.in
